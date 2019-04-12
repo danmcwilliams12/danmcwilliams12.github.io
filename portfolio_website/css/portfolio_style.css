@@ -1,0 +1,73 @@
+#home {
+    background: url("../img/dusk_sky.jpg") no-repeat 50% 100%;
+    background-attachment: absolute;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    height: 100%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+#about {
+    background: #017876;
+    font-family: 'Lalezar', cursive;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.head_main {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+
+.about_head {
+    color: #b9573a;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+
+.summary {
+    font-size: 1.25rem;
+    color: #000b16;
+}
+
+
+
+html {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 10px;
+    margin: 0;
+    background-color: #fff;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.text_center {
+    text-align:center;
+}
+
+.text_left {
+    text-align: left;
+}
+
+.text_right {
+    text-align: right;
+}
