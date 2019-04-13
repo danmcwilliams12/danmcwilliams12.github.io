@@ -22,8 +22,10 @@
 }
 
 .portrait_container {
-    width: 194px;
-    height: 170px;
+    position: relative;
+    display: block;
+    width: 150px;
+    height: 150px;
     border: 2px solid black;
     border-radius: 100px;
     overflow: hidden;
@@ -33,6 +35,8 @@
 .portrait_container img {
     width: 194px;
     height: 170px;
+    position: absolute;
+    right: -27px;
 }
 
 .head_main {
@@ -68,6 +72,7 @@ body {
     font-size: 10px;
     margin: 0;
     background-color: #fff;
+    overflow-x: hidden;
 }
 
 section {
@@ -81,7 +86,8 @@ section {
 }
 
 .section_head_container {
-    width: 100%;
+    display: inline-block;
+    width: 40%;;
     margin-left: 50px;
     padding-left: 15px;
     padding-right: 15px;
@@ -99,6 +105,11 @@ section {
     text-align: right;
 }
 
+.color_facebook {
+    background-color: #3C5A99;
+    color: #fff;
+}
+
 @media (max-width:499px) {
     .head_main {
         font-size: 1.5rem;
@@ -107,7 +118,12 @@ section {
         font-size: 1.5rem;
     }
     .summary {
-        font-size: 1 rem;
+        font-size: .75rem;
+    }
+    .section_head_container {
+        margin-left: 25px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 
@@ -119,4 +135,10 @@ section {
     .summary {
         font-size: 2rem;
     }
+    .section_head_container {
+        margin-left: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
+
