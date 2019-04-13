@@ -100,13 +100,22 @@ section {
 .text_left {
     text-align: left;
 }
-
-.text_right {
-    text-align: right;
+.button_container {
+    display: block;
+    position: relative;
 }
 
 .color_facebook {
     background-color: #3C5A99;
+    color: #fff;
+}
+
+.color_linkedin {
+    background-color: #0077B5;
+    color: #fff;
+}
+.color_github {
+    background-color: #6e5494;
     color: #fff;
 }
 
