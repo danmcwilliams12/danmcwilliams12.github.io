@@ -18,15 +18,7 @@
 }
 
 #skills {
-    background: #013744;
-}
-
-#portfolio {
-    background: #878a75;
-}
-
-#footer {
-    background: #000;
+    background: #fec46f;
 }
 
 .portrait_container {
@@ -47,7 +39,7 @@
     right: -27px;
 }
 
-.home_main {
+.head_main {
     font-family: 'Roboto Slab', serif;
     font-weight: bolder;
 }
@@ -58,24 +50,6 @@
 		-1px -1px 0 #000,
 		1px -1px 0 #000,
 		-1px 1px 0 #000,
-        1px 1px 0 #000;
-}
-
-.skills_head {
-    color: #779980;
-    text-shadow:
-        -1px -1px 0 #000,
-        1px -1px 0 #000,
-        -1px 1px 0 #000,
-        1px 1px 0 #000;
-}
-
-.portfolio_head {
-    color:#c68c64;
-    text-shadow:
-        -1px -1px 0 #000,
-        1px -1px 0 #000,
-        -1px 1px 0 #000,
         1px 1px 0 #000;
 }
 
@@ -91,6 +65,7 @@ html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     box-sizing: border-box;
+    display: block;
 }
 
 body {
@@ -101,8 +76,8 @@ body {
 }
 
 section {
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .container {
@@ -111,27 +86,27 @@ section {
 }
 
 .section_head_container {
-    display: block;
-    position: relative;
-    width: 300px;
+    display: inline-block;
+    width: 40%;;
+    margin-left: 50px;
     padding-left: 15px;
     padding-right: 15px;
 }
 
-.center {
-    margin: 0 auto;
-}
-
-
 .text_center {
-    text-align: center;
+    text-align:center;
 }
 
+.text_left {
+    text-align: left;
+}
+
+.social {
+    
+}
 .button_container {
     display: block;
     position: relative;
-    width: 260px;
-    margin: 0 auto;
 }
 
 .color_facebook {
@@ -149,22 +124,17 @@ section {
 }
 
 @media (max-width:499px) {
-    .home_main {
+    .head_main {
         font-size: 1.5rem;
     }
     .about_head {
-        font-size: 1.5rem;
-    }
-    .skills_head {
-        font-size: 1.5rem
-    }
-    .portfolio_head {
         font-size: 1.5rem;
     }
     .summary {
         font-size: .75rem;
     }
     .section_head_container {
+        margin-left: 25px;
         padding-left: 10px;
         padding-right: 10px;
     }
@@ -172,13 +142,14 @@ section {
 
 
 @media (min-width:500px) {
-    .home_main {
+    .head_main {
         font-size: 2.5rem;
     }
     .summary {
         font-size: 2rem;
     }
     .section_head_container {
+        margin-left: 50px;
         padding-left: 15px;
         padding-right: 15px;
     }
