@@ -8,6 +8,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <!-- Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lalezar" rel="stylesheet">
 
@@ -48,7 +51,7 @@
     <section id="home">
       <div class="container">
         <Header class="text_center">
-          <span class="head_main">Communicate. Create. Code.</span>
+          <span class="home_main">Code. Create. Communicate.</span>
         </Header>
       </div>
     </section>
@@ -57,18 +60,18 @@
 
     <section id="about">
       <div class="section_head_container">
-        <div class="text_left">
+        <div class="text_center">
           <H1 class="about_head">About Dan</H1>
         </div>
       </div>
       <br>
       <div class="container">
         <div class="text_left">
-          <p class="summary">As the great Lawrence Lessig once said,&nbsp "<em>Code is Law.</em>" &nbspIt governs over how we interact in the information age.
-            &nbspIt is for this reason that great care must taken in how we apply technology to society.
-            &nbsp With this in mind,&nbspsociety will move in a better direction with ethical and responsible developers at the helm.
+          <p class="summary">Lawrence Lessig once said that,&nbsp "<em>Code is Law.</em>" &nbspIt governs over how we interact in the information age.
+            &nbspIn light of this,&nbsp great care must be taken in how we apply technology to our society.
+            &nbspSociety will move in a better direction with competent professionals at the helm.
             &nbsp I believe in the power of honesty,&nbsppersonal responsibility and constant self improvement. &nbsp As an developer on your team,&nbsp 
-            I will seek to demploy my skills for the betterment of your company and community.
+            I will seek to deploy my skills for the betterment of your company and community.
           </p>
         </div>
       </div>
@@ -80,6 +83,16 @@
     <!-- Technical Skills -->
 
     <section id="skills">
+      <div class="section_head_container center text-center">
+        <h1>Skills</h1>
+      </div>
+      <div class="flex_container">
+       <div class="container">
+         
+       </div>>
+
+       </div>
+      </div>
 
 
 
@@ -93,6 +106,23 @@
     <!-- Portfolio -->
 
     <section id="portfolio">
+      <div class="section_head_container center text-center">
+        <H1 class="portfolio_head">Portfolio</H1>
+      </div>
+      <div class="flex_container">
+        <div class="card" style="width: 18rem;">
+          <img src="./img/personal_webpage.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Personal Website Project</p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="./img/personal_webpage.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Personal Website Project</p>
+          </div>
+        </div>
+      </div>
 
 
 
@@ -106,9 +136,11 @@
     <!-- Footer (with Linkedin and GitHub buttons) -->
 
     <section id="footer">
-
-
-
+      <div class= "button_container">
+        <a class="btn social color_linkedin" target="_new" href="https://www.linkedin.com/in/danielmcwilliams12/" role="button">Linkedin</a>
+        <a class="btn scocial color_facebook" target="_new" href="https://www.facebook.com/daniel.mcwilliams.52" role="button">Facebook</a>
+        <a class="btn social color_github" target="_new" href="https://github.com/danmcwilliams12" role="button">GitHub</a>
+      </div>
 
 
     </section>
