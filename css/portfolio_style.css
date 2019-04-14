@@ -110,6 +110,21 @@ section {
     padding-left: 15px;
 }
 
+.project_container {
+    position: relative;
+    height: 400px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.card {
+    background: silver;
+}
+
 .section_head_container {
     display: block;
     position: relative;
@@ -132,6 +147,10 @@ section {
     position: relative;
     width: 260px;
     margin: 0 auto;
+}
+
+.btn:hover {
+    transform: scale(1.1);
 }
 
 .color_facebook {
