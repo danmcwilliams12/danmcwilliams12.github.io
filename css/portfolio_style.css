@@ -21,12 +21,27 @@
     background: #013744;
 }
 
+#skills i {
+    transform: scale(7);
+    display: inline-block;
+    position: relative;
+    top: 50px;
+}
+
 #portfolio {
     background: #878a75;
 }
 
+#contact {
+    background: #fec56c;
+}
+
 #footer {
     background: #000;
+}
+
+.navbar-brand {
+    font-family: 'Faster One', cursive;
 }
 
 .portrait_container {
@@ -79,9 +94,20 @@
         1px 1px 0 #000;
 }
 
+.contact_head {
+    color: darkgray;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
 
 .summary {
     color: #000b16;
+    border: 2px solid black;
+    border-radius: 2px;
 }
 
 
@@ -107,13 +133,64 @@ section {
 }
 
 .container {
+    text-align: center;
     padding-right: 15px;
     padding-left: 15px;
 }
 
-.flex_container {
+.skill_type_head {
+    color: #fff;
+}
+
+.skills_container {
     position: relative;
-    height: 400px;
+    height: 100px;
+    width: 100%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.icon-container {
+    background: #000;
+    height: 175px;
+    width: 160px;
+    text-align: center;
+    margin: 0px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.icon-text {
+    color: darkgray;
+    position: relative;
+}
+
+.fa-html5 {
+    color: #6e5494;
+}
+
+.fa-css3-alt {
+    color: #b9573a;
+}
+
+.fa-bootstrap {
+    color: #0077B5
+}
+
+.fa-atom {
+    color: #17a36f;
+}
+
+.fa-code {
+    color: red;
+}
+
+.project_container {
+    position: relative;
     margin: 50px auto;
     display: flex;
     flex-direction: row;
@@ -124,6 +201,11 @@ section {
 
 .card {
     background: silver;
+    margin-top: 15px;
+}   
+
+.card:hover {
+    transform: scale(1.1);
 }
 
 .section_head_container {
@@ -146,14 +228,10 @@ section {
     text-align: left;
 }
 
-.social:hover {
-    transform: scale(1.1);
-}
-
-.button_container {
+.btn_container {
     display: block;
     position: relative;
-    width: 300px;
+    width: 265px;
     margin: 0 auto;
 }
 
