@@ -13,6 +13,7 @@
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lalezar" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./css/portfolio_style.css">
@@ -40,6 +41,9 @@
           <li class="nav-item">
             <a class="nav-link" href="#portfolio">Portfolio</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
         </ul>
       </div>
     </nav>
@@ -59,7 +63,7 @@
     <!-- About -->
 
     <section id="about">
-      <div class="section_head_container">
+      <div class="section_head_container center">
         <div class="text_center">
           <H1 class="about_head">About Dan</H1>
         </div>
@@ -69,14 +73,11 @@
         <div class="text_left">
           <p class="summary">Lawrence Lessig once said that,&nbsp "<em>Code is Law.</em>" &nbspIt governs over how we interact in the information age.
             &nbspIn light of this,&nbsp great care must be taken in how we apply technology to our society.
-            &nbspSociety will move in a better direction with competent professionals at the helm.
+            &nbspSociety will move in a positive direction with competent professionals at the helm.
             &nbsp I believe in the power of honesty,&nbsppersonal responsibility and constant self improvement. &nbsp As an developer on your team,&nbsp 
             I will seek to deploy my skills for the betterment of your company and community.
           </p>
         </div>
-      </div>
-      <div class="portrait_container">
-        <img src="./img/self_portrait.jpg" alt="">
       </div>
     </section>
 
@@ -84,68 +85,87 @@
 
     <section id="skills">
       <div class="section_head_container center text-center">
-        <h1>Skills</h1>
+        <H1 class="skills_head">Skills</H1>
       </div>
-      <div class="flex_container">
-       <div class="container">
-         
-       </div>>
-
+      <h2 class="skill_type_head text-center">Web Development</h2>
+      <div class="skills_container">
+       <div class="icon-container">
+        <i class="fab fa-html5"></i>
+        <br><br><br><br><br><br><br>
+        <h4 class="icon-text text-center">HTML</h4>
+       </div>
+       <div class="icon-container">
+        <i class="fab fa-css3-alt"></i>
+        <br><br><br><br><br><br><br>
+        <h4 class="icon-text text-center">CSS3</h4>
+       </div>
+       <div class="icon-container">
+        <i class="fab fa-bootstrap"></i>
+        <br><br><br><br><br><br><br>
+        <h4 class="icon-text text-center">Bootstrap</h4>
        </div>
       </div>
-
-
-
-
-
-
-
+      <br><br>
+      <h2 class="skill_type_head text-center">IDEs</h2>
+      <div class="skills_container">
+        <div class="icon-container">
+            <i class="fas fa-atom"></i>
+            <br><br><br><br><br><br><br>
+          <h4 class="icon-text text-center">Atom</h4>
+        </div>
+        <div class="icon-container">
+            <i class="fas fa-code"></i>
+            <br><br><br><br><br><br><br>
+          <h4 class="icon-text text-center">Visual Studio<br>Code</h4>
+        </div>
+      </div>
+      <br>
 
     </section>
 
     <!-- Portfolio -->
 
     <section id="portfolio">
-      <div class="section_head_container center text-center">
+      <Header class="section_head_container center text-center">
         <H1 class="portfolio_head">Portfolio</H1>
-      </div>
-      <div class="flex_container">
+      </Header>
+      <div class="project_container">
         <div class="card" style="width: 18rem;">
           <img src="./img/personal_webpage.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <p class="card-text">Personal Website Project</p>
+            <p class="card-text text-center">Personal Website Project</p>
+            <a class="btn btn-outline-dark" target="_new" href="https://danmcwilliams12.github.io/" role="button">Go To Project</a>
           </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-          <img src="./img/personal_webpage.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">Personal Website Project</p>
-          </div>
-        </div>
       </div>
-
-
-
-
-
-
-
-
     </section>
+
+    <!-- Contact -->
+
+    <section id="contact">
+        <Header class="section_head_container center text-center">
+          <H1 class="contact_head">Contact</H1>
+        </Header>
+        <br><Br>
+        <div class="container">
+          <h2>Phone: (330)-209-7678</h2>
+          <br><br>
+          <h2>Email: daniel.mcwilliams12@yahoo.com</h2>
+        </div>
+        <div class="portrait_container">
+            <img src="./img/self_portrait.jpg" alt="">
+          </div>
+      </section>
+      
 
     <!-- Footer (with Linkedin and GitHub buttons) -->
 
     <section id="footer">
-      <div class= "button_container">
-        <a class="btn social color_linkedin" target="_new" href="https://www.linkedin.com/in/danielmcwilliams12/" role="button">Linkedin</a>
-        <a class="btn scocial color_facebook" target="_new" href="https://www.facebook.com/daniel.mcwilliams.52" role="button">Facebook</a>
-        <a class="btn social color_github" target="_new" href="https://github.com/danmcwilliams12" role="button">GitHub</a>
+      <div class= "btn_container">
+        <a class="btn color_linkedin" target="_new" href="https://www.linkedin.com/in/danielmcwilliams12/" role="button">Linkedin</a>
+        <a class="btn color_facebook" target="_new" href="https://www.facebook.com/daniel.mcwilliams.52" role="button">Facebook</a>
+        <a class="btn color_github" target="_new" href="https://github.com/danmcwilliams12" role="button">GitHub</a>
       </div>
-
-
     </section>
-
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
