@@ -49,7 +49,6 @@
     </nav>
 
 
-
     <!-- Home -->
 
     <section id="home">
@@ -130,12 +129,33 @@
         <H1 class="portfolio_head">Portfolio</H1>
       </Header>
       <div class="project_container">
-        <div class="card" style="width: 18rem;">
+        <div class="card text-center" style="width: 18rem;">
           <img src="./img/personal_webpage.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <p class="card-text text-center">Personal Website Project</p>
             <a class="btn btn-outline-dark" target="_new" href="https://danmcwilliams12.github.io/" role="button">Go To Project</a>
+            <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#detail1">Details</button>
           </div>
+        </div>
+      </div>
+      <!-- Modal Description -->
+      <div class="modal" id="detail1" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Personal Website</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>I created this website to showcase my technical skills in front end web design.  I am constantly updating it with new content and features.  Make sure to check back regularly for new updates and additions.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
