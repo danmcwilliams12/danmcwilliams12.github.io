@@ -127,14 +127,13 @@ section {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: flex-start;
-    margin-top: 50px;
 }
 
 .icon-container {
     background: #000;
-    height: 175px;
+    height: 200px;
     width: 160px;
     text-align: center;
     border: 2px solid black;
@@ -153,6 +152,11 @@ section {
     position: relative;
 }
 
+.icon-container p {
+    color: darkgray;
+    height:5px;
+}
+
 .fa-html5 {
     color: #6e5494;
 }
@@ -161,7 +165,7 @@ section {
     color: #b9573a;
 }
 
-.fa-bootstrap {
+.fa-js-square {
     color: #0077B5
 }
 
