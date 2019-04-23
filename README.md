@@ -70,11 +70,12 @@
       <br>
       <div class="container">
         <div class="text_left">
-          <p class="summary">Lawrence Lessig once said that,&nbsp "<em>Code is Law.</em>" &nbspIt governs over how we interact in the information age.
-            &nbspIn light of this,&nbsp great care must be taken in how we apply technology to our society.
-            &nbspSociety will move in a positive direction with competent professionals at the helm.
-            &nbsp I believe in the power of honesty,&nbsppersonal responsibility and constant self improvement. &nbsp As an developer on your team,&nbsp 
-            I will seek to deploy my skills for the betterment of your company and community.
+          <p class="summary">From a very early age,&nbsp; I have been facinated with games,&nbsp; puzzles and problem solving.&nbsp; 
+            I have a deep interest in working with systems and figuring out how they function.&nbsp; 
+            I appreciate that software development requires a great amount of perserverance,&nbsp; attention to detail and mental energy,&nbsp; 
+            but I believe that I am more than fit for the task.  My greatest strength lies in a devotion to daily incremental improvement.&nbsp; 
+            Rome was not buit in a day,&nbsp; neither will my skillset,&nbsp; nor a robust software application.&nbsp; I look forward to the prospect of working 
+            with you and your company in the future.&nbsp;  Please check out my skills and projects below!
           </p>
         </div>
       </div>
