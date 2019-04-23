@@ -91,7 +91,8 @@
        <div class="icon-container">
         <i class="fab fa-html5"></i>
         <br><br><br><br><br><br><br>
-        <h4 class="icon-text text-center">HTML</h4>
+        <h4 class="icon-text text-center">HTML5</h4>
+        <p class="text-center">Bootstrap 4</p>
        </div>
        <div class="icon-container">
         <i class="fab fa-css3-alt"></i>
@@ -99,12 +100,14 @@
         <h4 class="icon-text text-center">CSS3</h4>
        </div>
        <div class="icon-container">
-        <i class="fab fa-bootstrap"></i>
+        <i class="fab fa-js-square"></i>
         <br><br><br><br><br><br><br>
-        <h4 class="icon-text text-center">Bootstrap</h4>
+        <h4 class="icon-text text-center">JavaScript</h4>
+        <p>JQuery</p>
+        <p>ReactJS</p>
        </div>
       </div>
-      <br><br>
+      <br><br><br><br>
       <h2 class="skill_type_head text-center">IDEs</h2>
       <div class="skills_container">
         <div class="icon-container">
@@ -118,7 +121,7 @@
           <h4 class="icon-text text-center">Visual Studio<br>Code</h4>
         </div>
       </div>
-      <br>
+      <br><br><br><br>
 
     </section>
 
@@ -130,15 +133,23 @@
       </Header>
       <div class="project_container">
         <div class="card text-center" style="width: 18rem;">
-          <img src="./img/personal_webpage.jpg" class="card-img-top" alt="...">
+          <img src="./img/personal_webpage.jpg" class="card-img-top" height="150" alt="...">
           <div class="card-body">
-            <p class="card-text text-center">Personal Website Project</p>
+            <p class="card-text text-center">Personal Website</p>
             <a class="btn btn-outline-dark" target="_new" href="https://danmcwilliams12.github.io/" role="button">Go To Project</a>
             <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#detail1">Details</button>
           </div>
         </div>
+        <div class="card text-center" style="width: 18rem;">
+          <img src="./img/pizza_order.jpg" class="card-img-top" height="150" alt="...">
+          <div class="card-body">
+            <p class="card-text text-center">Pizza Receipt Generator</p>
+            <a class="btn btn-outline-dark" target="_new" href="./Pizza Order/pizza_order.html" role="button">Go To Project</a>
+            <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#detail2">Details</button>
+          </div>
+        </div>
       </div>
-      <!-- Modal Description -->
+      <!-- Modal Descriptions -->
       <div class="modal" id="detail1" tabindex="-1" role="dialog">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
@@ -157,6 +168,24 @@
           </div>
         </div>
       </div>
+      <div class="modal" id="detail2" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Pizza Receipt Generator</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>This project is my first formal application of JavaScript in conjunction with HTML and CSS. The objective was to create a recipt that contained the selected items, their subtotals and a grand total.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
     </section>
 
     <!-- Contact -->
