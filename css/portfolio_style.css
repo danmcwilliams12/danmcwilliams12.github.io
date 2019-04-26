@@ -153,6 +153,7 @@ section {
 }
 
 .icon-container p {
+    font-size: .75rem;
     color: darkgray;
     height:5px;
 }
@@ -167,6 +168,10 @@ section {
 
 .fa-js-square {
     color: #0077B5
+}
+
+.fa-database {
+    color: goldenrod;
 }
 
 .fa-atom {

@@ -70,11 +70,11 @@
       <br>
       <div class="container">
         <div class="text_left">
-          <p class="summary">From a very early age,&nbsp; I have been facinated with games,&nbsp; puzzles and problem solving.&nbsp; 
+          <p class="summary">From a very early age,&nbsp; I have been fascinated with games,&nbsp; puzzles and problem solving.&nbsp; 
             I have a deep interest in working with systems and figuring out how they function.&nbsp; 
-            I appreciate that software development requires a great amount of perserverance,&nbsp; attention to detail and mental energy,&nbsp; 
+            I appreciate that software development requires a great amount of perseverance,&nbsp; attention to detail and mental energy,&nbsp; 
             but I believe that I am more than fit for the task.  My greatest strength lies in a devotion to daily incremental improvement.&nbsp; 
-            Rome was not buit in a day,&nbsp; neither will my skillset,&nbsp; nor a robust software application.&nbsp; I look forward to the prospect of working 
+            Rome was not buit in a day,&nbsp; neither will my skill set,&nbsp; nor a robust software application.&nbsp; I look forward to the prospect of working 
             with you and your company in the future.&nbsp;  Please check out my skills and projects below!
           </p>
         </div>
@@ -107,6 +107,17 @@
         <p>JQuery</p>
         <p>ReactJS</p>
        </div>
+      </div>
+      <br><br><br><br>
+      <h2 class="skill_type_head text-center">Database</h2>
+      <div class="skills_container">
+        <div class="icon-container">
+            <i class="fas fa-database"></i>
+            <br><br><br><br><br><br><br>
+          <h4 class="icon-text text-center">SQL</h4>
+          <p>SQL Server</p>
+          <p>SQlite</p>
+        </div>
       </div>
       <br><br><br><br>
       <h2 class="skill_type_head text-center">IDEs</h2>
@@ -149,6 +160,14 @@
             <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#detail2">Details</button>
           </div>
         </div>
+        <div class="card text-center" style="width: 18rem;">
+          <img src="./img/public_library.jpg" class="card-img-top" height="150" alt="...">
+          <div class="card-body">
+            <p class="card-text text-center">Library Database</p>
+            <a class="btn btn-outline-dark" target="_new" href="https://github.com/danmcwilliams12/SQL-Coding-Projects/tree/master/CountyLibrary" role="button">Go To Project</a>
+            <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#detail3">Details</button>
+          </div>
+        </div>
       </div>
       <!-- Modal Descriptions -->
       <div class="modal" id="detail1" tabindex="-1" role="dialog">
@@ -170,23 +189,41 @@
         </div>
       </div>
       <div class="modal" id="detail2" tabindex="-1" role="dialog">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Pizza Receipt Generator</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <p>This project is my first formal application of JavaScript in conjunction with HTML and CSS. The objective was to create a recipt that contained the selected items, their subtotals and a grand total.</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Pizza Receipt Generator</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>This project is my first formal application of JavaScript in conjunction with HTML and CSS. The objective was to create a receipt that contained the selected items, their subtotals and a grand total.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+      <div class="modal" id="detail3" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Library Database Project</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>The requirements for this project were to create and populate a database and store several procedures for a fictional library system.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Contact -->
