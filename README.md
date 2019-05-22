@@ -54,7 +54,7 @@
     <section id="home">
       <div class="container">
         <Header class="text_center">
-          <span class="home_main">Code. Create. Communicate.</span>
+          <h1 class="home_main jumbotron">Solving Problems in the Game of Life</h1>
         </Header>
       </div>
     </section>
@@ -70,11 +70,11 @@
       <br>
       <div class="container">
         <div class="text_left">
-          <p class="summary">From a very early age,&nbsp; I have been fascinated with games,&nbsp; puzzles and problem solving.&nbsp; 
-            I have a deep interest in working with systems and figuring out how they function.&nbsp; 
-            I appreciate that software development requires a great amount of perseverance,&nbsp; attention to detail and mental energy,&nbsp; 
-            but I believe that I am more than fit for the task.  My greatest strength lies in a devotion to daily incremental improvement.&nbsp; 
-            Rome was not buit in a day,&nbsp; neither will my skill set,&nbsp; nor a robust software application.&nbsp; I look forward to the prospect of working 
+          <p class="summary">From a very early age,&nbsp; I have been fascinated with games and puzzles.&nbsp; 
+            I have a deep interest in working with systems and figuring out how they work.&nbsp; 
+            It is my experience that software development requires a great amount of perseverance,&nbsp; attention to detail and mental energy, 
+            and I believe that I posses these skills.  My greatest strength lies in a devotion to daily incremental improvement.&nbsp; 
+            Rome was not buit in a day,&nbsp; it was built brick by brick over days, months and years.&nbsp; I look forward to the prospect of working 
             with you and your company in the future.&nbsp;  Please check out my skills and projects below!
           </p>
         </div>
@@ -105,7 +105,6 @@
         <br><br><br><br><br><br><br>
         <h4 class="icon-text text-center">JavaScript</h4>
         <p>JQuery</p>
-        <p>ReactJS</p>
        </div>
       </div>
       <br><br><br><br>
@@ -120,18 +119,25 @@
         </div>
       </div>
       <br><br><br><br>
-      <h2 class="skill_type_head text-center">IDEs</h2>
+      <h2 class="skill_type_head text-center">C#/.Net</h2>
       <div class="skills_container">
-        <div class="icon-container">
-            <i class="fas fa-atom"></i>
-            <br><br><br><br><br><br><br>
-          <h4 class="icon-text text-center">Atom</h4>
-        </div>
-        <div class="icon-container">
-            <i class="fas fa-code"></i>
-            <br><br><br><br><br><br><br>
-          <h4 class="icon-text text-center">Visual Studio<br>Code</h4>
-        </div>
+          <div class="icon-container">
+              <img src="https://img.icons8.com/color/48/000000/c-sharp-logo-2.png">
+              <br><br><br><br><br>
+              <h4 class="icon-text text-center">C#</h4>
+          </div>
+          <div class="icon-container">
+              <img src="https://img.icons8.com/color/48/000000/asp.png">
+              <br><br><br><br><br />
+              <h4 class="icon-text text-center">ASP.NET</h4>
+              <p>ADO.net</p>
+              <p>Entity</p>
+          </div>
+          <div class="icon-container">
+              <img src="https://img.icons8.com/color/48/000000/visual-studio.png">
+              <br><br><br><br><br />
+              <h4 class="icon-text text-center">Visual Studio</h4>
+          </div>
       </div>
       <br><br><br><br>
 
@@ -229,18 +235,26 @@
     <!-- Contact -->
 
     <section id="contact">
-        <Header class="section_head_container center text-center">
-          <H1 class="contact_head">Contact</H1>
-        </Header>
-        <br><Br>
-        <div class="container">
-          <h2>Phone: (330)-209-7678</h2>
-          <br><br>
-          <h2>Email: daniel.mcwilliams12@yahoo.com</h2>
+        <div class="card w-50 mx-auto shadow">
+            <div class="card-head">
+                <Header class="section_head_container center text-center">
+                    <H1 class="contact_head">Contact</H1>
+                </Header>
+                <hr />
+            </div>
+            <div class="card-body">
+                <div class="container">
+                    <h2>Phone</h2>
+                    <h3>(330)-209-7678</h3>
+                    <br><br>
+                    <h2>Email</h2>
+                    <h3>daniel.mcwilliams12@yahoo.com</h3>
+                </div>
+                <div class="portrait_container">
+                    <img src="./img/self_portrait.jpg" alt="">
+                </div>
+            </div>
         </div>
-        <div class="portrait_container">
-            <img src="./img/self_portrait.jpg" alt="">
-          </div>
       </section>
       
 
