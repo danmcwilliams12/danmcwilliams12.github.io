@@ -19,7 +19,7 @@ section {
 }
 
 #home {
-    background: url("../img/dusk_sky.jpg") no-repeat 50% 100%;
+    background: url("../img/games.jpg") no-repeat 50% 100%;
     background-attachment: absolute;
     -webkit-background-size: auto;
     -moz-background-size: auto;
@@ -59,7 +59,6 @@ section {
 .home_main {
     font-family: 'Roboto Slab', serif;
     font-weight: bolder;
-    font-size: 2.5rem;
 }
 
 .about_head {
@@ -145,6 +144,20 @@ section {
     display: inline-block;
     position: relative;
     top: 50px;
+}
+
+#skills img {
+    transform: scale(1.75);
+    display: inline-block;
+    position: relative;
+    top: 35px;
+}
+
+#skills #Asp {
+    transform: scale(1.75);
+    display: inline-block;
+    position: relative;
+    top: 30px;
 }
 
 .icon-text {
