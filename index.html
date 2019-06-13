@@ -22,26 +22,26 @@
   </head>
   <body>
     <!-- Navbar (Include Name) -->
-    <nav class="invisible navbar fixed-top navbar-expand-lg navbar-light bg-light">
-      <a class="visible navbar-brand" href="#">Dan McWilliams</a>
-      <button class="visible navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="visible navbar-toggler-icon"></span>
+    <nav class="navbar fixed-top navbar-dark bg-primary navbar-expand-lg">
+      <a class="navbar-brand" href="#">Dan McWilliams</a>
+      <button class=" navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="visible collapse navbar-collapse font-weight-bolder" id="navbarNav">
+      <div class="collapse navbar-collapse font-weight-bolder" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item active">
+          <li class="nav-item active col-3">
             <a class="nav-link" href="#home">Home<span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item col-3">
             <a class="nav-link" href="#about">About</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item col-3">
             <a class="nav-link" href="#skills">Skills</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item col-3">
             <a class="nav-link" href="#portfolio">Portfolio</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item col-3">
             <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
@@ -52,9 +52,9 @@
     <!-- Home -->
 
     <section id="home">
-      <div class="container">
-        <Header class="text_center">
-          <h1 class="home_main jumbotron">Solving Problems in the Game of Life</h1>
+      <div class="container text-center">
+        <Header class="jumbotron w-75 mx-auto">
+          <h1 class="home_main">Solving Problems in the Game of Life</h1>
         </Header>
       </div>
     </section>
@@ -131,7 +131,7 @@
               <br><br><br><br><br />
               <h4 class="icon-text text-center">ASP.NET</h4>
               <p>ADO.net</p>
-              <p>Entity</p>
+              <p>Entity Framework</p>
           </div>
           <div class="icon-container">
               <img src="https://img.icons8.com/color/48/000000/visual-studio.png">
@@ -172,6 +172,14 @@
             <p class="card-text text-center">Library Database</p>
             <a class="btn btn-outline-dark" target="_new" href="https://github.com/danmcwilliams12/SQL-Coding-Projects/tree/master/CountyLibrary" role="button">Go To Project</a>
             <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#detail3">Details</button>
+          </div>
+        </div>
+        <div class="card text-center" style="width: 18rem;">
+          <img src="./img/LiveProject.jpg" class="card-img-top" height="150" alt="...">
+          <div class="card-body">
+            <p class="card-text text-center">Live Project</p>
+            <a class="btn btn-outline-dark" target="_new" href="https://github.com/danmcwilliams12/ConstructionCompanyWebApplication/blob/master/README.md" role="button">Go To Project</a>
+            <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#detail4">Details</button>
           </div>
         </div>
       </div>
@@ -230,12 +238,30 @@
           </div>
         </div>
       </div>
+      <div class="modal" id="detail4" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Live Project</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>During the last two weeks of my time at the tech academy, I worked with fellow students to build an ASP.NET MVC web application for a local construction company using Entity Framework Code First. The project was a great opportunity for me to learn new technologies on the fly and implement them in my code very rapidly.  I also had an opportunity to see how to communicate effectively with fellow programmers using project management software Azure DevOps and Slack.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Contact -->
 
     <section id="contact">
-        <div class="card w-50 mx-auto shadow">
+        <div class="card w-75 mx-auto shadow">
             <div class="card-head">
                 <Header class="section_head_container center text-center">
                     <H1 class="contact_head">Contact</H1>
@@ -245,10 +271,10 @@
             <div class="card-body">
                 <div class="container">
                     <h2>Phone</h2>
-                    <h3>(330)-209-7678</h3>
+                    <h4>(330)-209-7678</4>
                     <br><br>
                     <h2>Email</h2>
-                    <h3>daniel.mcwilliams12@yahoo.com</h3>
+                    <h4>daniel.mcwilliams12@yahoo.com</h4>
                 </div>
                 <div class="portrait_container">
                     <img src="./img/self_portrait.jpg" alt="">

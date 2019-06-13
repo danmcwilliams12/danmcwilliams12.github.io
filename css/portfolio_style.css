@@ -33,19 +33,19 @@ section {
 }
 
 #about {
-    background: #017876;
+    background: #9933CC;
 }
 
 #skills {
-    background: #013744;
+    background: #0d47a1;
 }
 
 #portfolio {
-    background: #878a75;
+    background: #007E33;
 }
 
 #contact {
-    background: #017876;
+    background: #4B515D;
 }
 
 #footer {
@@ -54,6 +54,10 @@ section {
 
 .navbar-brand {
     font-family: 'Faster One', cursive;
+}
+
+.nav-item a {
+    font-size: 1rem;
 }
 
 .home_main {
@@ -103,7 +107,7 @@ section {
     border: 2px solid black;
     border-radius: 2px;
     font-family: 'Lalezar', cursive;
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 
